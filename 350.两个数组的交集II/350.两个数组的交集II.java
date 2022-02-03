@@ -22,3 +22,10 @@ class Solution {
         return Arrays.copyOfRange(endArr , 0 , index);
     }
 }
+
+
+Arrays.copyOfRange(T[ ] original,int from,int to)
+
+将一个原始的数组original，从下标from开始复制，复制到上标to，生成一个新的数组。
+
+注意这里包括下标from，不包括上标to。
