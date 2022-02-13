@@ -12,3 +12,8 @@ class Solution {
         return root;
     }
 }
+
+若root为空则跳出循环，并返回空节点;
+若 val = root.val，则返回root；
+若 val < root.val,将root置为root.left。
+若 val > root.val,将root置为root.righ。
